@@ -3,4 +3,4 @@ steps:
   - cmd: az login --identity
   - cmd: az account show 
   - cmd: az group list -o table
-  - cmd: az acr build --image tasktest2:v1 --registry martinpfacrpremiumwus.azurecr.io --file dockerfile . 
+  - cmd: az acr build --image tasktest2:v1 --registry martinpfacrpremiumcus.azurecr.io --file dockerfile . 
